@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:the_perspectve_app/constants.dart';
 
 class ChatScreen extends StatefulWidget {
+  static const String id = 'chat_screen';
+
   @override
   _ChatScreenState createState() => _ChatScreenState();
 }
